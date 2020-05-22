@@ -1193,15 +1193,8 @@ textarea.input {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
+		text-align: center;
 		padding-top: 30px;
-	}
-}
-.saving__video {
-	position: relative;
-}
-@media (max-width: 991.98px) {
-	.saving__video {
-		margin: 50px 0 40px 11%;
 	}
 }
 .saving__textblock {
@@ -1226,6 +1219,11 @@ textarea.input {
 		font-size: 40px;
 	}
 }
+.saving__video {
+	width: 445px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 .saving__text {
 	width: 445px;
 	color: #ffffff;
@@ -1240,21 +1238,6 @@ textarea.input {
 		font-size: 16px;
 		width: 475px;
 	}
-}
-
-.video_1 {
-	margin-bottom: 28px;
-	margin-left: -85px;
-}
-
-.video_2 {
-	margin-top: -286px;
-	margin-left: -43px;
-}
-
-.video_3 {
-	margin-top: -300px;
-	margin-left: 60px;
 }
 
 .saving__apps img {
